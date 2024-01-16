@@ -190,7 +190,7 @@ gsap.to(".bar", 1.5, {
 
 // hero img
 
-gsap.to(".bio", {
+gsap.to("#main", {
   scale: 1.2, stagger: 0.25, duration: .5,
   scrollTrigger: {
     trigger: ".two",
